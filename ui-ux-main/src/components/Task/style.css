@@ -1,0 +1,333 @@
+.back-arrow{
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top: 120px;
+}
+.task-container{
+    position: absolute;
+    width: 75%;
+    height: 600px;
+    top: 200px;
+    left: 350px;
+    background-color: #FFFCEF;
+}
+.task-name{
+        color: #413f3f;
+        font: 700 25px Roboto, sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+}
+.task-inputname{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 1060px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.task-des{
+    color: #413f3f;
+    font: 700 25px Roboto, sans-serif;
+    position: absolute;
+    font-weight: normal;
+    top: 110px;
+    left: 20px;
+}
+.task-inputdes{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    width: 1060px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.task-time{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+.time-icon{
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 35px;
+    position: absolute;
+    top: 10px;
+}
+.time-name{
+    font: 700 18px Roboto, sans-serif;
+    font-weight: normal;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+}
+.task-time-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 9px 73px;
+    background: linear-gradient(0deg, #67c49b 0%, #67c49b 100%), linear-gradient(0deg, #e31d41 0%, #e31d41 100%), #fff;
+    mix-blend-mode: plus-darker;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    color: #081c15;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 120%;
+    position: absolute;
+    left: 140px;
+    width: 365px;
+}
+.date {
+    padding: 7px 27px;
+    background: linear-gradient(0deg, #fffcef 0%, #fffcef 100%), linear-gradient(0deg, #081c15 0%, #081c15 100%), #f5f5f5;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    right: 40px;
+}
+.time {
+    padding: 7px 41px;
+    background: linear-gradient(0deg, #fffcef 0%, #fffcef 100%), linear-gradient(0deg, #081c15 0%, #081c15 100%), #f5f5f5;
+    border: 1px solid rgba(169, 158, 160, 1);
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    white-space: nowrap;
+}
+.reminder-container {
+    display: flex;
+    margin-top: 41px;
+    width: 100%;
+    gap: 20px;
+    position: absolute;
+    left: 20px;
+    top: 250px;
+}
+.reminder-icon {
+    display: flex;
+    gap: 6px;
+    font-size: 18px;
+    color: #413f3f;
+    font-weight: 400;
+    margin: auto 0;
+}
+.reminder-text {
+    font-family: Roboto, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+}
+.reminder-settings {
+    border-radius: 10px;
+    background-color: #67c49b;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #081c15;
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 6px 80px 6px 32px;
+    max-width: 400px;
+    width: 100%;
+}
+.reminder-days {
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #fffcef 0%, #fffcef 100%),
+      linear-gradient(0deg, #081c15 0%, #081c15 100%), #f5f5f5;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 130%;
+    margin: auto 0;
+    padding: 8px 23px;
+}
+.reminder-dropdown {
+    border-radius: 5px;
+    border: 1px solid #081c15;
+    background-color: #fffce7;
+    display: flex;
+    gap: 11px;
+    font-weight: 400;
+    padding: 6px 5px;
+}
+.reminder-dropdown img {
+    aspect-ratio: 0.68;
+    object-fit: auto;
+    object-position: center;
+    width: 21px;
+}
+.category-container {
+    align-self: center;
+    display: flex;
+    margin-top: 47px;
+    width: 100%;
+    max-width: 858px;
+    gap: 20px;
+    position: absolute;
+    left: 20px;
+    top: 320px;
+}
+.category-title {
+    align-self: start;
+    display: flex;
+    margin-top: 4px;
+    gap: 7px;
+    font-size: 18px;
+    color: #413f3f;
+    font-weight: 400;
+}
+.category-icon {
+    width: 30px;
+    fill: #081c15;
+}
+.category-text {
+    font-family: Roboto, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    position: relative;
+    top: 5px;
+}
+.category-tabs {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 130%;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: auto;
+    position: relative;
+    top: 5px;
+}
+.tab-theory {
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #67c49b 0%, #67c49b 100%), linear-gradient(0deg, #000 0%, #000 100%), #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 6px 31px;
+}
+.tab-practice {
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #67c49b 0%, #67c49b 100%), linear-gradient(0deg, #000 0%, #000 100%), #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 7px 22px;
+}
+.tab-extracurricular {
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #67c49b 0%, #67c49b 100%), linear-gradient(0deg, #000 0%, #000 100%), #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 7px 20px;
+}
+.addnew-icon {
+    width: 30px;
+    align-self: stretch;
+    margin: auto 0;
+}
+.priority-container {
+    align-self: center;
+    display: flex;
+    margin-top: 51px;
+    width: 100%;
+    max-width: 717px;
+    gap: 20px;
+    position: absolute;
+    left: 20px;
+    top: 390px;
+}
+.priority-icon {
+    display: flex;
+    gap: 6px;
+    font-size: 18px;
+    color: #413f3f;
+    font-weight: 400;
+    margin: auto 0;
+}
+.priority-image {
+    width: 30px;
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    fill: #000;
+}
+.priority-text {
+    font-family: Roboto, sans-serif;
+    margin: auto 0;
+}
+.priority-level-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 9px 29px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #67c49b 0%, #67c49b 100%), #fff;
+    mix-blend-mode: plus-darker;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left: 23px;
+    width: 450px;
+}
+.priority-level-text {
+    font-family: Roboto, sans-serif;
+    padding: 7px 7px;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #fffcef 0%, #fffcef 100%), linear-gradient(0deg, #081c15 0%, #081c15 100%), #f5f5f5;
+    color: #081c15;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 130%;
+}
+.priority-level {
+    font-family: Roboto, sans-serif;
+    padding: 9px 7px;
+    border-radius: 5px;
+    background-color: #fffce7;
+    color: #008eff;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #d74632;
+    color: #fffdfd;
+    padding: 7px 51px;
+    font: 700 30px Roboto, sans-serif;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 45px auto 0;
+    width: fit-content;
+    position: relative;
+    top: 480px;
+}
